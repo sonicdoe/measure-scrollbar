@@ -6,6 +6,7 @@
     "scrollbar",
     "width"
   ],
+  "license": "0BSD",
   "repository": "sonicdoe/measure-scrollbar",
   "author": "Jakob Krigovsky <jakob@krigovsky.com>"
 }
