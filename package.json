@@ -8,5 +8,11 @@
   ],
   "license": "0BSD",
   "repository": "sonicdoe/measure-scrollbar",
-  "author": "Jakob Krigovsky <jakob@krigovsky.com>"
+  "author": "Jakob Krigovsky <jakob@krigovsky.com>",
+  "scripts": {
+    "test": "standard"
+  },
+  "devDependencies": {
+    "standard": "^10.0.2"
+  }
 }
