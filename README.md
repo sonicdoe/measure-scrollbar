@@ -2,6 +2,8 @@
 
 > Get the width of the browser scrollbar
 
+[Demo](https://sonicdoe.github.io/measure-scrollbar/)
+
 ## Installation
 
 ```
