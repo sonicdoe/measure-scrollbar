@@ -13,9 +13,11 @@
     "index.js"
   ],
   "scripts": {
+    "example:build": "cd example && rollup --config",
     "test": "standard"
   },
   "devDependencies": {
+    "rollup": "^0.43.0",
     "standard": "^10.0.2"
   }
 }
