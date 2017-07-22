@@ -21,6 +21,12 @@ measureScrollbar()
 
 `measureScrollbar()` returns the width of the browser scrollbar in pixels.
 
+## Browser support
+
+measure-scrollbar supports the latest releases of Chrome, Safari, Firefox, Microsoft Edge, and Opera.
+
+If you require Internet Explorer support, use [Babel’s ES2015 arrow functions transform](https://babeljs.io/docs/plugins/transform-es2015-arrow-functions/).
+
 ## Acknowledgments
 
 measure-scrollbar is based on David Walsh’s [Detect Scrollbar Width with JavaScript](https://davidwalsh.name/detect-scrollbar-width) article.
