@@ -35,4 +35,7 @@ measure-scrollbar is based on David Walsh’s [Detect Scrollbar Width with JavaS
 
 This project follows [Semantic Versioning 2](http://semver.org/).
 
+- v1.0.0 (2017-07-25):
+  - Fully commit to Semantic Versioning
+  - Document official browser support
 - v0.1.0 (2017-06-20): Initial release
