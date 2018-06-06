@@ -21,6 +21,12 @@ measureScrollbar()
 
 `measureScrollbar()` returns the width of the browser scrollbar in pixels.
 
+### Module bundlers
+
+measure-scrollbar is distributed as an ES module. Therefore, it works out of the box with [webpack](https://webpack.js.org), [Parcel](https://parceljs.org), and [Rollup](https://rollupjs.org) (even without [rollup-plugin-commonjs](https://github.com/rollup/rollup-plugin-commonjs)).
+
+[Browserify](http://browserify.org) does not support ES modules natively. To use measure-scrollbar with Browserify, you can use [ascjsify](https://github.com/goto-bus-stop/ascjsify) to transform it to a CommonJS module. For example: `browserify app.js -g ascjsify`.
+
 ## Browser support
 
 measure-scrollbar supports the latest releases of Chrome, Safari, Firefox, Microsoft Edge, and Opera.
