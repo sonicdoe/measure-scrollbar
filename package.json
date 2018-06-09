@@ -10,11 +10,13 @@
   "repository": "sonicdoe/measure-scrollbar",
   "author": "Jakob Krigovsky <jakob@krigovsky.com>",
   "files": [
+    "commonjs.js",
     "index.js"
   ],
   "scripts": {
     "example:build": "cd example && rollup --config",
     "example:deploy": "npm run example:build && gh-pages -d example",
+    "prepare": "rollup index.js --output commonjs.js --format cjs",
     "test": "standard"
   },
   "devDependencies": {
